@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Lista de Citas</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Doctor</th>
+        <th>Consultorio</th>
+        <th>Horario</th>
+        <th>Paciente</th>
+    </tr>
+    <tr th:each="cita : ${citas}">
+        <td th:text="${cita.doctor.nombre}"></td>
+        <td th:text="${cita.consultorio.numero}"></td>
+        <td th:text="${#temporals.format(cita.horario, 'yyyy-MM-dd HH:mm')}"></td>
+        <td th:text="${cita.nombrePaciente}"></td>
+    </tr>
+</table>
+</body>
+</html>
