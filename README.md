@@ -6,8 +6,7 @@ Este proyecto es una implementación de una aplicación de gestión de citas mé
 
 La aplicación permite gestionar las citas médicas de un consultorio, lo que incluye las siguientes funcionalidades:
 
-- Gestión de **Doctores** y **Consultorios**.
-- Creación, consulta, actualización y cancelación de **Citas**.
+- Creación, consulta de **Citas**.
 - Validaciones para garantizar que las citas no se superpongan para un doctor o un consultorio.
 - Interfaz de usuario básica para la creación y visualización de citas usando **Thymeleaf**.
 
