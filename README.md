@@ -28,7 +28,7 @@ La aplicación permite gestionar las citas médicas de un consultorio, lo que in
 
 ### 1. Clona el repositorio
 
-git clone https://github.com/tuusuario/consultorio-medico.git
+git clone https://github.com/AldairMontano/ConsultorioMedico.git
 cd consultorio-medico
 
 #### 2. Construye el proyecto
